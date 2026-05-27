@@ -16,6 +16,12 @@ System settings - "Security" - "Secure app spawning" may need to be disabled.
 
 ### Start with root
 
+
+
+
+
+
+
 For rooted devices, just start directly.
 
 ### Start via wireless debugging
@@ -81,7 +87,7 @@ To use `adb` you first need to turn on USB debugging on your device, usually by 
 2. Click "Build number" quickly for several times, you can see a message similar to "You are a developer".
 3. At this point, you should able to find "Developer Options" in Settings,  enable "USB Debugging".
 4. Connect the device to the computer and type `adb devices` in the terminal.
-5. At this time, the dialog "Allow debugging" will appear on the device, check "Always allow" and confirm.
+5. At this time, the dialog "Allow debugging" will appear on the  device, check "Always allow" and confirm.
 6. Enter `adb devices` again in the terminal. If there is no problem, you will see something like the following.
 
    ```
